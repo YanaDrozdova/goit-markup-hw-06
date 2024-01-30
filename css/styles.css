@@ -815,8 +815,10 @@ img {
 }
 
 .modal {
-  width: 408px;
-  min-height: 584px;
+  /* width: 408px;
+  min-height: 584px; */
+  width: 288px;
+  min-height: 623px;
   border-radius: 4px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
@@ -827,7 +829,8 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  padding: 72px 24px 24px 24px;
+  /* padding: 72px 24px 24px 24px; */
+  padding: 72px 16px 24px 16px;
   display: flex;
   flex-direction: column;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -893,7 +896,8 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   outline: transparent;
-  padding-left: 38px;
+  /* padding-left: 38px; */
+  padding-left: 34px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1110,6 +1114,10 @@ img {
     display: none;
   }
 
+  .mob-menu {
+    display: none;
+  }
+
   /* ---------------HERO------------- */
   .hero {
     max-width: 768px;
@@ -1206,6 +1214,16 @@ img {
 
   .footer-input {
     width: 264px;
+  }
+
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+  }
+
+  .modal-input {
+    padding-left: 38px;
   }
 }
 
